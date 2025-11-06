@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gray-50 text-gray-800 font-sans min-h-screen;
+}
+
+/* Reusable card */
+.card {
+  @apply bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden;
+}
+
+/* Button defaults */
+.btn {
+  @apply px-4 py-2 rounded-lg font-semibold transition-all;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
