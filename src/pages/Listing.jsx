@@ -53,7 +53,7 @@ export default function Listing() {
   const prevPage = () => setCurrentPage((prev) => Math.max(prev - 1, 1));
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-black via-gray-900 to-black overflow-hidden text-white">
+    <div className="relative min-h-screen bg-gradient-to-br">
       {/* Background Glows */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-400/20 blur-3xl rounded-full animate-pulse"></div>
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-yellow-500/10 blur-3xl rounded-full animate-pulse"></div>
